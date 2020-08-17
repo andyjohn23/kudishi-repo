@@ -13,7 +13,7 @@
 }
 .jumbotron{
     height: 80px;
-    border:none;
+
 }
 .jumbotron p{
     font-size: 13px;
@@ -46,4 +46,3 @@
      height: 500px;
      object-fit: contain;
 }
-
