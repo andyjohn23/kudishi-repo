@@ -11,13 +11,39 @@
     padding: 0px 15px;
     font-size: 18px;
 }
+.jumbotron{
+    height: 80px;
+    border:none;
+}
+.jumbotron p{
+    font-size: 13px;
+    color: white;
+    margin-top: -1%;
+    margin-left: 4%;
+    
+}
+.remove-space{
+    margin: -50px 0 0 0;
+    border: none;
+ }
 .navbar-brand img{
     border-radius: 50%;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     object-fit: cover;
 }
 .navbar-brand{
+    margin: -10px;
     font-family: 'Indie Flower', cursive;
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
 }
+.navbar-brand:hover{
+    color: white;
+}
+.carousel-item{
+     margin-top: -1%;
+     height: 500px;
+     object-fit: contain;
+}
+
