@@ -1,0 +1,23 @@
+*{
+    top: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: white;
+}
+.nav-items{
+    padding: 0px 15px;
+    font-size: 18px;
+}
+.navbar-brand img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+.navbar-brand{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
