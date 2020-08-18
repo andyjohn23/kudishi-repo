@@ -21,89 +21,145 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header>
-            <nav class="navbar  navbar-dark navbar-expand-md navbar fixed-top  bg-dark">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.jpg" alt="logo">
-                    Kudishi
-                    <p>served with passion</p>
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-list">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-items">
-                            <a class="nav-link active" href="#">Home</a>
-                        </li>
-                        <li class="nav-items">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-items">
-                            <a class="nav-link" href="#">Menu</a>
-                        </li>
-                        <li class="nav-items">
-                            <a class="nav-link" href="#">Gallery</a>
-                        </li>
-                        <li class="nav-items">
-                            <a class="nav-link" href="#">Contacts</a>
-                        </li>
-                    </ul>
 
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="myCarousel" data-slide-to="1"></li>
-                    <li data-target="myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="img-fluid" style="max-width: 100%;"></div>
-                    <div class="carousel-item active" data-interval="8000">
-                        <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide8.jpg);">
-                        </div>
-                        <div class="container">
-                            <p>Nothing brings people together like good food.</p>
-                        </div>
+    <nav class="navbar  navbar-dark navbar-expand-md navbar fixed-top  bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.jpg" alt="logo">
+                Kudishi
+                <p>served with passion</p>
+            </a>
+        </div>
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-list">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-items">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-items">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="myCarousel" data-slide-to="1"></li>
+                <li data-target="myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="img-fluid" style="max-width: 100%;"></div>
+                <div class="carousel-item active" data-interval="8000">
+                    <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide8.jpg);">
                     </div>
-                    <div class="carousel-item" data-interval="8000">
-                        <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide3.jpg);">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-12">
-                                    <p>People who love to eat are always the best people</p>
-                                </div>
+                    <div class="container slides">
+                        <p>Nothing brings people together like good food.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-interval="8000">
+                    <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide3.jpg);">
+                    </div>
+                    <div class="container slides">
+                        <div class="row">
+                            <div class="col-8">
+                                <p>People who love to eat are always the best people</p>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-interval="8000">
-                        <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide4.jpg);">
-                        </div>
-                        <div class="container">
-                            <p>The fondest memories are made when gathered<br> around the table</p>
+                </div>
+                <div class="carousel-item" data-interval="8000">
+                    <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide4.jpg);">
+                    </div>
+                    <div class="container slides">
+                        <p>The fondest memories are made when gathered<br> around the table</p>
+                    </div>
+                </div>
+                <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="sr-only">previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="sr-only">next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+        <div class="container card1">
+            <div class="menutitle">
+                <h1>Our Menu</h1>
+            </div>
+            <div class="row menu">
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="images/breakfast.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title" style="font-size: 30px; text-align: center; color: #202020;">Breakfast</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
                         </div>
                     </div>
-                    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                        <span class="sr-only">previous</span>
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
-                        <span class="sr-only">next</span>
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="images/slide9.jpg" style="height: 185px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="images/salads.jpg" style="height: 190px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="images/cakes.jpg" style="height: 190px;">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up
+                                the bulk of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-
-
-        </main>
-    </div>
+        </div>
+    </main>
 
 </body>
 
