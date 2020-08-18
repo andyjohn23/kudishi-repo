@@ -15,67 +15,115 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar  navbar-dark navbar-expand-md navbar fixed-top bg-dark">
-            <a class="navbar-brand" href="#">
-                <img src="images/logo.jpg" alt="logo">
-                Kudishi
-                <p>served with passion</p>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-list">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-items">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-link" href="#">Menu</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-link" href="#">Gallery</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-link" href="#">Contacts</a>
-                    </li>
-                </ul>
+        <header>
+            <nav class="navbar  navbar-dark navbar-expand-md navbar fixed-top bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.jpg" alt="logo">
+                    Kudishi
+                    <p>served with passion</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-list">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-items">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-items">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
 
-            </div>
-        </nav>
-        <div class="row">
-            <div class="col-lg">
-                <div class="frontimage">
-                    <img src="images/slide8.jpg" class="img-fluid">
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="myCarousel" data-slide-to="1"></li>
+                    <li data-target="myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="img-fluid" style="max-width: 100%;"></div>
+                    <div class="carousel-item active" data-interval="8000">
+                        <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide8.jpg);">
+                        </div>
+                        <div class="container">
+                            <p>Nothing brings people together like good food.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="8000">
+                        <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide3.jpg);">
+                        </div>
+                        <div class="container">
+                            <p>People who love to eat are always the best people</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="8000">
+                        <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide1.jpg);">
+                        </div>
+                        <div class="container">
+                            <h1>Example</h1>
+                            <p>THis a bootstrap example</p>
+                        </div>
+                    </div>
+                    <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="sr-only">previous</span>
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </a>
+                    <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="sr-only">next</span>
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-lg">
-                <div class="card image1">
-                    <img src="images/slide7.jpg" class="card-img-top" class="img-fluid">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="card image1">
+                        <img src="images/slide7.jpg" class="card-img-top" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card image2">
+                        <img src="images/slide9.jpg" class="card-img-top" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg">
+                    <div class="card image3">
+                        <img src="images/slide10.jpg" class="card-img-top" class="img-fluid">
+                    </div>
                 </div>
             </div>
-            <div class="col-lg">
-                <div class="card image2">
-                    <img src="images/slide9.jpg" class="card-img-top" class="img-fluid">
+            <section1>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Our Menu</h1>
+                    </div>
                 </div>
-            </div>
-            <div class="col-lg">
-                <div class="card image3">
-                    <img src="images/slide10.jpg" class="card-img-top" class="img-fluid">
-                </div>
-            </div>
-        </div>
+                
+            </section1>
+
+
+        </main>
     </div>
 
 </body>
