@@ -4,33 +4,26 @@
 <head>
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="css/index.css" rel="stylesheet" type="text/css" media="all">
 </head>
 
-<body>
+<body class="container-fluid" style="padding: 0; margin: 0;">
 
     <nav class="navbar  navbar-dark navbar-expand-md navbar fixed-top  bg-dark">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.jpg" alt="logo">
                 Kudishi
                 <p>served with passion</p>
             </a>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,118 +50,158 @@
             </div>
         </div>
     </nav>
-    <main>
-        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="myCarousel" data-slide-to="1"></li>
-                <li data-target="myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="img-fluid" style="max-width: 100%;"></div>
-                <div class="carousel-item active" data-interval="8000">
-                    <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide8.jpg);">
-                    </div>
-                    <div class="container slides">
-                        <p>Nothing brings people together like good food.</p>
-                    </div>
+
+    <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="img-fluid" style="max-width: 100%;"></div>
+            <div class="carousel-item active" data-interval="8000">
+                <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide8.jpg);">
                 </div>
-                <div class="carousel-item" data-interval="8000">
-                    <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide3.jpg);">
-                    </div>
-                    <div class="container slides">
-                        <div class="row">
-                            <div class="col-8">
-                                <p>People who love to eat are always the best people</p>
-                            </div>
+                <div class="container-fluid slides">
+                    <div class="row">
+                        <div class="d-none d-md-block">
+                            <p>Nothing brings people together like good food.</p>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item" data-interval="8000">
-                    <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide4.jpg);">
-                    </div>
-                    <div class="container slides">
-                        <p>The fondest memories are made when gathered<br> around the table</p>
+            </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide3.jpg);">
+                </div>
+                <div class="container-fluid slides">
+                    <div class="row">
+                        <div class="d-none d-md-block">
+                            <p>People who love to eat are always the best people</p>
+                        </div>
                     </div>
                 </div>
-                <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
-                    <span class="sr-only">previous</span>
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                </a>
-                <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
-                    <span class="sr-only">next</span>
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                </a>
             </div>
+            <div class="carousel-item" data-interval="8000">
+                <div class="overlay-image" style="background-image:url(../kudishi-repo/images/slide4.jpg);">
+                </div>
+                <div class="container-fluid slides">
+                    <div class="row">
+                        <div class="d-none d-md-block">
+                            <p>The fondest memories are made when gathered<br> around the table</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#myCarousel" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="sr-only">previous</span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#myCarousel" class="carousel-control-next" role="button" data-slide="next">
+                <span class="sr-only">next</span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
         </div>
-        <div class="container card1">
-            <div class="menutitle">
-                <h1>Our Menu</h1>
+    </div>
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="offers">
+                    <p class="title">Fresh fish</p>
+                    <p>
+                        Our first tasty offer
+                    </p>
+                    <div class="price">
+                        Ksh.300/=
+                    </div>
+                </div>
             </div>
-            <div class="row menu">
-                <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/breakfast.jpg">
-                        <div class="card-body">
-                            <h4 class="card-title" style="font-weight: bolder;font-size: 30px; text-align: center; color: #202020;">
-                                Breakfast</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the
-                                card's content.</p>
-                            <div class="text-center">
-                                <a class="btn btn-primary">Check Out</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/slide9.jpg" style="height: 185px;">
-                        <div class="card-body">
-                            <h4 class="card-title" style="font-weight: bolder;font-size: 30px; text-align: center; color: #202020;">Lunch</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the
-                                card's content.</p>
-                            <div class="text-center">
-                                <a class="btn btn-primary">Check Out</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/salads.jpg" style="height: 190px;">
-                        <div class="card-body">
-                            <h4 class="card-title" style="font-weight: bolder;font-size: 30px; text-align: center; color: #202020;">Salads</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the
-                                card's content.</p>
-                            <div class="text-center">
-                                <a class="btn btn-primary">Check Out</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3" style="float:left">
-                    <div class="card mb-2">
-                        <img class="card-img-top" src="images/cakes.jpg" style="height: 190px;">
-                        <div class="card-body">
-                            <h4 class="card-title" style="font-size: 30px; text-align: center; color: #202020; font-weight: bolder;">Cakes</h4>
-                            <p class="card-text">Some quick example text to build on the card title and make up
-                                the bulk of the
-                                card's content.</p>
-                            <div class="text-center">
-                                <a class="btn btn-primary">Check Out</a>
-                            </div>
-                        </div>
+            <div class="col-md-6">
+                <div class="offers2">
+                    <p class="title">Fried Crispy Chicken</p>
+                    <p>
+                        8 pieces, Grab your offer!!!
+                    </p>
+                    <div class="price">
+                        Ksh.650/=
                     </div>
                 </div>
             </div>
         </div>
-    </main>
+    </div>
+
+    <div class="container">
+        <div class="menutitle">
+            <h1>Our Menu</h1>
+        </div>
+        <div class="row menu">
+            <div class="col-md-3 d-flex align-items-stretch" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="images/breakfast.jpg">
+                    <div class="card-body">
+                        <h4 class="card-title cardtitles">Breakfast</h4>
+                        <p class="card-text">All happiness depends on a leisurely breakfast,
+                            check out our menu for more delicacy.
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-primary">Check Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-stretch" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="images/slide9.jpg" style="height: 185px;">
+                    <div class="card-body">
+                        <h4 class="card-title cardtitles">Lunch</h4>
+                        <p class="card-text">Lunch hour is the best hour of the day
+                            you can try out some of our traditional delicacy
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-primary">Check Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-stretch" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="images/salads.jpg" style="height: 185px;">
+                    <div class="card-body">
+                        <h4 class="card-title cardtitles">Salads</h4>
+                        <p class="card-text">You can try out some of our tantalizing salads prepared
+                            by our professional chefs.
+                        </p>
+                        <div class="text-center">
+                            <a class="btn btn-primary">Check Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 d-flex align-items-stretch" style="float:left">
+                <div class="card mb-2">
+                    <img class="card-img-top" src="images/cakes.jpg" style="height: 180px;">
+                    <div class="card-body">
+                        <h4 class="card-title cardtitles">Cakes</h4>
+                        <p class="card-text">Life is too short to say no cake, you can check out
+                            some of our cakes varieties.</p>
+                        <div class="text-center">
+                            <a class="btn btn-primary">Check Out</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 
 </body>
 
