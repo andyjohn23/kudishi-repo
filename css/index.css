@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 *{
     top: 0px;
@@ -83,10 +84,11 @@ body{
 }
 .menutitle h1{
     text-align: center;
-    color: #404040;
+    color: white;
     font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 18%;
+    font-family: 'Russo One', sans-serif;
+    margin-top: 23%;
+    padding-top: 23px;
     
 }
 .menu{
@@ -171,11 +173,17 @@ body{
     align-items: center;
     border-radius: 20px;
 }
-
 .cardtitles{
     font-family: 'Roboto', sans-serif;
     font-size: 25px; 
     text-align: center; 
     color: #202020; 
     font-weight: bolder;
+}
+.fixed-bg{
+    background-image: url("../images/fixedbackground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
