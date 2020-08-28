@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 *{
     top: 0px;
@@ -186,4 +187,46 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.bestoffers{
+    background-image: url("../images/bestoffer.jpg");
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+.bestoffers .title{
+    font-size: 60px;
+    font-family: 'Russo One', sans-serif;
+    margin-left: 10%;
+    color: #202020;
+    line-height: 60px;
+    margin-top: 5%;
+}
+.bestoffers .title2{
+    font-size: 28px;
+    font-style: italic;
+    line-height: 5px;
+}
+.bestoffers p{
+    font-size: 16px;
+    font-family: cursive;
+    margin-left: 10%;
+}
+.bestoffers span{
+    color: green;
+    font-size: 23px;
+}
+.bestoffers button{
+    background-color: #56B62E;
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    margin-left: 10%;
+    
 }
