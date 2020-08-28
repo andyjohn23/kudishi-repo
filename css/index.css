@@ -93,8 +93,15 @@ body{
     
 }
 .menu{
-    margin-top: 5%;
+    margin-top: 3%;
     border-radius: 10px;
+}
+.fixed-bg{
+    background-image: url("../images/fixedbackground.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .offers{
     background-image: url("../images/fish.jpg");
@@ -181,13 +188,6 @@ body{
     color: #202020; 
     font-weight: bolder;
 }
-.fixed-bg{
-    background-image: url("../images/fixedbackground.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
 .bestoffers{
     background-image: url("../images/bestoffer.jpg");
     background-size: 60%;
@@ -218,6 +218,10 @@ body{
 .bestoffers span{
     color: green;
     font-size: 23px;
+}
+.bestoffers .pricestroke{
+    font-size: 23px;
+    text-decoration: line-through;
 }
 .bestoffers button{
     background-color: #56B62E;
