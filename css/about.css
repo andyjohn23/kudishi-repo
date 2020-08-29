@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 *{
     top: 0px;
@@ -76,4 +77,10 @@ body{
     font-size: 17px;
     color: grey;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.counter{
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    color: #8BC063;
 }
