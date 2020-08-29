@@ -94,3 +94,92 @@ body{
     outline: none;
     border: none;
 }
+.ourstory{
+    margin-top: 10%;
+}
+.ourstory .title{
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.ourstory h2{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 28px;
+}
+.vl{
+  border-left: 1px solid #C1C1C0;
+  height: 400px;
+  position: relative;
+  left: 50%;
+  margin-left: -3px;
+  top: 150%;
+}
+.story1{
+    margin-top: -20%;
+}
+.story1 h2{
+    font-size: 25px;
+    font-family: cursive;
+    color:#C1C1C0;
+    font-weight: bold;
+}
+.story1 h3{
+    font-size: 28px;
+    margin-left: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.story1 p{
+    font-size: 15px;
+    margin-left: 15%;
+}
+.story1 img{
+    float: right;
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -10%;
+    margin-right: 10%;
+}
+.vertical{
+    margin-top: 32%;
+}
+.vertical.vl{
+    border-left: 1px solid #C1C1C0;
+    height: 800px;
+    position: relative;
+    left: 50%;
+    margin-left: -3px;
+    top: 150%;
+}
+.story2 h4{
+    text-align: center;
+    font-size: 23px;
+    padding-top: 28px;
+}
+.story2{
+    margin-top: -30%;
+}
+.story2 img{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: -55%;
+    margin-left: 20%;
+}
+.story2 h3{
+    float: right;
+    font-size: 28px;
+    margin-top: -40%;
+    margin-right: 30%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.story2 p{
+    float: right;
+    margin-top: -32%;
+    font-size: 15px;
+    margin-left: 15%;
+}
